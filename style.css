@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Bebas ;
+    font-family: Bebas;
     src: url(Bebas_Neue/BebasNeue-Regular.ttf);
 }
 
@@ -7,17 +7,6 @@
     font-family: Roboto;
     src: url(Roboto/Roboto-Regular.ttf);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -34,24 +23,24 @@ body {
     margin-top: 0%;
     align-items: center;
     justify-content: space-between !important;
-    padding: 3px;
+    padding: 2px;
     position: fixed;
     gap: 400px;
-    border-bottom: 2px ;
+    border-bottom: 2px;
     background-color: white;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    width: fit-content;
-    
+    width: 100%;
+
 }
 
-.logo{
+.logo {
     width: 80px;
     margin-left: 100px;
-    
-    
+
+
 }
 
-.logo-bar{
+.logo-bar {
 
     display: flex;
     gap: 5px;
@@ -60,91 +49,101 @@ body {
 }
 
 
-span{
+span {
     font-family: Roboto;
     font-size: 20px;
 }
 
 
-span.Brand{
+span.Brand {
     color: #ff8367;
     text-shadow: 0px 1px 1px #ff8367;
+
 }
 
-span.Name{
+span.Name {
     color: black;
 }
 
-.nav-links{
+.nav-links {
     list-style: none;
     display: flex;
     gap: 70px;
     margin-right: 150px;
-     
+
 
 }
 
 
-.links{
+.links {
     text-decoration: none;
     font-family: Roboto;
-    
+
 }
 
- 
-a:link{
+
+a:link {
     color: black;
 }
 
-a:visited{
-    color:#363958 ;
+a:visited {
+    color: #363958;
 }
 
 
 
-.ShoesImg{
-    height: 500px;
+.ShoesImg {
+    height: 470px;
     width: 500px;
-    
-    
 }
 
-.text{
+.text {
     line-height: 10px;
 }
 
 
-.hero-section{
+.hero-section {
     align-items: center;
     justify-content: center;
     display: flex;
     gap: 100px;
-    padding-top: 80px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
-.head{
+.head {
     color: #ff8367;
     font-family: Bebas;
     font-size: 80px;
-    
+    line-height: 5px;
+    margin-top: 5px;
+
 }
 
-.rest{
+.rest {
     color: #363958;
     font-family: Bebas;
     font-size: 80px;
+    margin-bottom: 40px;
+
 
 }
 
-p{
+p {
     font-family: Roboto;
-    
+
+
+}
+
+.paragraph {
+    width: 380px;
+    line-height: 20px;
 
 }
 
 
 
-button{
+button {
     background-color: #3d4ff3;
     border-color: #3d4ff3;
     width: 125px;
@@ -155,12 +154,514 @@ button{
     color: white;
     cursor: pointer;
     display: inline-flex;
-    line-height: 40px;  /* To Adjust text in center */
+    line-height: 40px;
+    /* To Adjust text in center */
 }
 
 
 
-.paragrpah{
-    display: block;
- 
+
+
+
+
+.section-1 {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+.section-2 {
+    background-color: #e5e5e5;
+    color: #e5e5e5;
+    font-family: Bebas;
+    font-size: 40px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+.box1 {
+
+    background-color: white;
+    height: 520px;
+    width: 330px;
+    border-radius: 20px;
+    border: 13px solid white;
+    display: inline-block;
+    margin-left: 115px;
+    margin-right: 20px;
+    /* border: 2px; */
+    box-shadow: 1px 1px 6px 0.5px rgb(153, 151, 151);
+
+
+
+
+
+}
+
+
+.box1 img {
+
+    height: 350px;
+    width: 330px;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
+.box2 {
+
+    background-color: white;
+    height: 520px;
+    width: 330px;
+    border-radius: 20px;
+    border: 13px solid white;
+    display: inline-block;
+    margin-right: 20px;
+    box-shadow: 1px 1px 6px 0.5px rgb(153, 151, 151);
+}
+
+
+.box2 img {
+
+    height: 350px;
+    width: 330px;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+
+}
+
+
+
+
+.box3 {
+
+    background-color: white;
+    height: 520px;
+    width: 330px;
+    border-radius: 20px;
+    border: 13px solid white;
+    display: inline-block;
+    box-shadow: 1px 1px 6px 0.5px rgb(153, 151, 151);
+
+}
+
+
+.box3 img {
+
+    height: 350px;
+    width: 330px;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+
+}
+
+
+
+.para {
+
+    font-family: Bebas;
+    color: #363958;
+    padding-bottom: 0;
+    padding-top: 50px;
+    margin: 50px 0px 0px 115px;
+    font-size: 48px;
+
+
+}
+
+
+
+.box1 p {
+    font-size: 18px;
+    font-family: Roboto;
+    color: black;
+    margin-left: 10px;
+
+}
+
+.Tag-head {
+    font-family: Roboto;
+    color: #363958 !important;
+    font-size: 25px !important;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+
+
+
+
+}
+
+.box2 p {
+    font-size: 18px;
+    font-family: Roboto;
+    color: black;
+    margin-left: 10px;
+
+}
+
+.box3 p {
+    font-size: 18px;
+    font-family: Roboto;
+    color: black;
+    margin-left: 10px;
+
+
+}
+
+
+.price {
+    font-size: 26px !important;
+    color: #ff8367 !important;
+    margin: 0 0 0 0 !important;
+
+}
+
+
+
+
+
+
+.bars {
+    height: 140px;
+    width: 550px;
+    background-color: white;
+    display: flex;
+    margin-left: 115px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    margin-right: 0;
+    box-shadow: 1px 1px 6px 0.5px rgb(153, 151, 151);
+}
+
+
+
+
+
+
+
+
+.search-bar {
+    width: 1125px;
+    height: 200px;
+    background-color: white;
+    border-radius: 18px;
+    margin-left: 115px;
+    gap: 0px;
+    box-shadow: 1px 1px 6px 0.5px rgb(153, 151, 151);
+}
+
+
+
+.subscribe {
+    color: #363958;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-family: Roboto !important;
+    margin-left: 400px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+
+
+
+.search-box {
+    width: 850px;
+    height: 38px;
+    margin-left: 80px;
+    border-radius: 3px;
+    margin-top: 18px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border: 1px solid rgb(181, 192, 204)
+    
+    
+    
+
+
+}
+
+
+
+.search-box:focus {
+    border-color: rgb(144, 190, 250) !important;
+    outline: none;
+    box-shadow: 1px 1px px ;
+
+}
+
+
+
+
+
+
+.subs:hover {
+
+    background-color: green;
+    border-color: green;
+
+}
+
+
+
+.subs:focus {
+
+    border-color: rgb(0, 110, 18) !important;
+    
+
+}
+
+
+
+
+.subs {
+    color: white;
+    background-color: #3d4ff3;
+    width: 100px;
+    height: 43px;
+    padding-left: 12px;
+    border-left: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0%;
+    margin-top: 17px;
+}
+
+
+
+
+
+.Images {
+    width: 90px;
+    height: 90px;
+    padding-top: 25px;
+    padding-left: 60px;
+}
+
+
+
+
+.captions {
+    font-size: 20px;
+    color: #363958;
+    font-family: Roboto;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+
+
+
+.left-bars {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+.row-bar {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.animated {
+    width: 550px;
+    height: 330px;
+    margin-top: 5px;
+}
+
+
+
+
+
+.text {
+    color: rgb(63, 61, 61);
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 11px;
+    padding-left: 40px;
+    padding-right: 70px;
+    font-family: Roboto;
+
+}
+
+
+
+
+.taglines {
+
+    line-height: 20px;
+}
+
+
+
+
+
+
+.footer {
+    height: 230px;
+    width: 100%;
+    background-color: #f8f9fa;
+    margin-top: 50px;
+}
+
+
+
+
+
+.Input {
+    display: flex;
+
+
+}
+
+
+
+
+.price-button {
+    width: 117px;
+    height: 43px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 16px;
+
+
+}
+
+
+
+
+
+.price-button img {
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    background-color: #3d4ff3;
+    padding-top: 2px;
+
+}
+
+.inline {
+    gap: 140px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+
+.container {
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+.container p {
+    font-size: 20px;
+    color: #363958;
+    margin-left: 130px;
+    margin-top: 60px;
+    margin-right: 65px;
+
+
+
+
+
+}
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.container:link {
+    color: black;
+}
+
+
+
+.container:visited {
+    color: black;
+}
+
+
+
+.list {
+    font-size: 16px;
+    list-style: none;
+    margin-left: 90px;
+    font-weight: lighter;
+    font-family: Roboto;
+    line-height: 23px;
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}
+
+
+.list>li>a {
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+
+}
+
+.name {
+    color: #ff8367;
+    font-family: Roboto;
+    font-size: 16px !important;
+
+
+}
+
+
+.rights {
+    text-align: center !important;
+    font-family: Roboto;
+    font-size: 16px !important;
+    margin-bottom: 35px;
+
+
+
 }
